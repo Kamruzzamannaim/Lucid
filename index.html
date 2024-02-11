@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lucid Business Solution</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Lucid Business Solution</h1>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="section">
+          <p>
+            Hi, this is Ben calling from a local Cleaning Company. I'm reaching
+            out because next week, one of our sales managers will be available
+            in your area and will be visiting other facilities nearby. Since
+            she'll already be in the area, we were wondering if she could stop
+            by for a quick 5 to 10-minute visit at your facility. We have some
+            available time slots, so please let me know what works best with
+            your schedule.
+          </p>
+        </div>
+        <div class="section">
+          <div class="form-container">
+            <h2>Sale Info</h2>
+            <form action="" method="POST" name="sale-form">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                value="Benjamin Franklin"
+                readonly
+              />
+              <input
+                type="text"
+                name="manager name"
+                placeholder="Manager Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Manager Email"
+                required
+              />
+              <input
+                type="text"
+                name="Address"
+                placeholder="Address"
+                required
+              />
+              <input type="text" name="" placeholder="Company Name" required />
+              <input
+                type="text"
+                name="campaign"
+                placeholder="campaign name"
+                required
+              />
+
+              <br />
+              <p class="info">Current Cleaning Status</p>
+
+              <br />
+              <input
+                type="radio"
+                name="cleaning-status"
+                value="Outside"
+                id="outside"
+              />
+              <label for="outside"
+                >Outside Company <span class="bold">1x__> MMP</span></label
+              >
+              <br />
+              <input
+                type="radio"
+                name="cleaning-status"
+                value="Inhouse"
+                id="inhouse"
+              />
+              <label for="inhouse"
+                >In-house
+                <span class="bold">
+                  [Are you actively seeking any outside company + MMP]
+                </span>
+              </label>
+
+              <p class="info">Cleaning Frequency</p>
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="1x"
+                id="1x"
+              />
+              <label for="1x">1x</label>
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="2x"
+                id="2x"
+              />
+              <label for="2x">2x</label>
+
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="3x"
+                id="3x"
+              />
+
+              <label for="3x">3x</label>
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="4x"
+                id="4x"
+              />
+
+              <label for="4x">4x</label>
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="5x"
+                id="5x"
+              />
+
+              <label for="5x">5x</label
+              ><input
+                type="radio"
+                name="cleaning-frequency"
+                value="6x"
+                id="6x"
+              />
+
+              <label for="6x">6x</label>
+              <input
+                type="radio"
+                name="cleaning-frequency"
+                value="7x"
+                id="7x"
+              />
+
+              <label for="7x">7x</label>
+              <!-- Repeat for other frequency options -->
+              <br />
+              <p class="info">Must Verify</p>
+
+              <p>Are you one of the persons in charge of office cleaning?</p>
+              <input
+                type="radio"
+                name="person-in-charge"
+                value="yes"
+                id="yes"
+              />
+              <label for="yes">Yes</label>
+              <input type="radio" name="person-in-charge" value="no" id="no" />
+              <label for="no">No</label>
+              <br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
